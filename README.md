@@ -12,7 +12,7 @@ ou
 
 ### Importe o arquivo js/highlight.js e carregue o método initHighlightingOnLoad:
 ```html
-<script href="js/highlight.js"></script>
+<script src="js/highlight.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 ```
               

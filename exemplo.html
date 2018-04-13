@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en"  style="background:#263238;">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/portugol-studio-dark.css">
+  </head>
+  <body style="background:#263238;">
+    <h1 style="color: white; text-align:center;">Portugol Studio Highlight</h1>
+    <pre><code class="hljs portugol">
+        programa
+        {
+            funcao inicio()
+            {
+                // Declaração das Variáveis
+                inteiro idade = 12
+                cadeia nome
+    
+                escreva("Informe o nome: ")
+                leia(nome)
+                limpa()
+    
+                se (idade >= 18){
+                    escreva("Maior de idade!")
+                } senao {
+                    escreva("Menor de idade!")
+                }
+            }
+        }
+    </code></pre>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/highlight.js"></script>
+    <script>hljs.initHighlightingOnLoad()</script>
+  </body>
+</html>
