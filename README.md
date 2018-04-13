@@ -40,3 +40,5 @@ ou
     }
 </code></pre>
 ```
+
+### O resultado deve ser parecido com o encontrado [aqui](https://alissonsteffens.github.io/highlight.js-portugol/exemplo.html)
